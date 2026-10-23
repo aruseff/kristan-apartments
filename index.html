@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="bg">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Тестов сайт в GitHub Pages</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #fff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 40px;
+            border-radius: 12px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+            text-align: center;
+            max-width: 400px;
+        }
+        h1 { margin-top: 0; }
+        button {
+            background-color: #ff758c;
+            border: none;
+            color: white;
+            padding: 12px 24px;
+            font-size: 16px;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: background 0.3s;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #ff7eb3;
+        }
+        #message {
+            margin-top: 15px;
+            font-size: 18px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="card">
+        <h1>Здравей, GitHub Pages!</h1>
+        <p>Това е тестова страница, за да проверим дали хостингът работи успешно.</p>
+        <button onclick="showAlert()">Натисни ме</button>
+        <div id="message"></div>
+    </div>
+
+    <script>
+        function showAlert() {
+            const messages = [
+                "Браво! JavaScript работи перфектно! 🚀",
+                "Сайтът е готов за света! ✨",
+                "Всичко е наред с GitHub Pages! 🎉"
+            ];
+            const randomMsg = messages[Math.floor(Math.random() * messages.length)];
+            document.getElementById("message").innerText = randomMsg;
+        }
+    </script>
+
+</body>
+</html>
