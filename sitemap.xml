@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://kristan-apartments.com/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kristan-apartments.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://kristan-apartments.com/bg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kristan-apartments.com/"/>
+    <image:image><image:loc>https://kristan-apartments.com/img/hero.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kristan-apartments.com/img/sea-view.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kristan-apartments.com/img/studio.jpg</image:loc></image:image>
+    <image:image><image:loc>https://kristan-apartments.com/img/gallery-1.jpg</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://kristan-apartments.com/bg/</loc>
+    <lastmod>2026-10-24</lastmod>
+    <xhtml:link rel="alternate" hreflang="en" href="https://kristan-apartments.com/"/>
+    <xhtml:link rel="alternate" hreflang="bg" href="https://kristan-apartments.com/bg/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://kristan-apartments.com/"/>
+  </url>
+</urlset>
